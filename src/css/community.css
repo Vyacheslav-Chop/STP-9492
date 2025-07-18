@@ -1,0 +1,246 @@
+.community-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.community-desc {
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.community-desc-path {
+  font-weight: 500;
+}
+
+.arrow-wrap {
+  display: none;
+}
+
+.community-social-wrap {
+  margin-bottom: 16px;
+}
+
+.arrow-social-wrap {
+  display: none;
+}
+
+.community-social-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.community-social-link {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.community-social-img {
+  object-fit: contain;
+}
+
+.community-social-desc {
+  display: none;
+}
+
+.arrow-featured-wrap {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .community-subtitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .community-subtitle-margin {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .community-desc {
+    font-size: 16px;
+    margin-bottom: 4px;
+    text-align: center;
+    max-width: 465px;
+    margin: 0 auto;
+  }
+
+  .arrow-wrap {
+    display: flex;
+    gap: 42px;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .arrow-wrap div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .arrow-left {
+    background-image: url('/img/community/arrow/big-arrow/big-arrow-left.png');
+    width: 266px;
+    height: 38px;
+  }
+
+  .arrow-right {
+    background-image: url('/img/community/arrow/big-arrow/big-arrow-right.png');
+    width: 280px;
+    height: 36px;
+  }
+
+  .community-wrap {
+    display: flex;
+    gap: 279px;
+    align-items: baseline;
+  }
+
+  .community-social-wrap {
+    margin-bottom: 0;
+    margin-left: 142px;
+  }
+
+  .arrow-social-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+
+  .arrow-social-wrap div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .arrow-to-instagram {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-instagram.png');
+    width: 54px;
+    height: 19px;
+    margin-right: 14px;
+  }
+
+  .arrow-to-twitter {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-twitter.png');
+    width: 18px;
+    height: 21px;
+    margin-right: 24px;
+  }
+
+  .arrow-to-youtube {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-youtube.png');
+    width: 18px;
+    height: 21px;
+    margin-right: 14px;
+  }
+
+  .arrow-to-discord {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-discord.png');
+    width: 54px;
+    height: 19px;
+  }
+
+  .community-social-list {
+    gap: 24px;
+  }
+
+  .community-social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-direction: column;
+  }
+
+  .community-social-link {
+    width: 20px;
+    height: 20px;
+  }
+
+  .community-social-desc {
+    display: block;
+    font-size: 12px;
+  }
+
+  .arrow-featured-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 3px;
+  }
+
+  .arrow-featured-wrap div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .arrow-to-appinsider {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-appinsider.png');
+    width: 92px;
+    height: 35px;
+    margin-right: 44px;
+  }
+
+  .arrow-to-indieplates {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-indieplates.png');
+    width: 10px;
+    height: 32px;
+    margin-right: 58px;
+  }
+
+  .arrow-to-gamevista {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-gamevista.png');
+    width: 87px;
+    height: 37px;
+  }
+
+  .community-featured-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+   .arrow-left {
+    background-image: url('/img/community/arrow/big-arrow/big-arrow-left@2x.png');
+  }
+
+  .arrow-right {
+    background-image: url('/img/community/arrow/big-arrow/big-arrow-right@2x.png');
+  }
+
+   .arrow-to-instagram {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-instagram@2x.png');
+  }
+
+  .arrow-to-twitter {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-twitter@2x.png');
+  }
+
+  .arrow-to-youtube {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-youtube@2x.png');
+  }
+
+  .arrow-to-discord {
+    background-image: url('/img/community/arrow/small-arrow-left/arrow-discord@2x.png');
+  }
+
+    .arrow-to-appinsider {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-appinsider@2x.png');
+  }
+
+  .arrow-to-indieplates {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-indieplates@2x.png');
+  }
+
+  .arrow-to-gamevista {
+    background-image: url('/img/community/arrow/small-arrow-right/arrow-gamevista@2x.png');
+  }
+}
