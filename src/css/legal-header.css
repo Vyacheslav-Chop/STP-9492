@@ -1,0 +1,32 @@
+.legal-header {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.legal-link-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid #fc4c2a;
+  border-radius: 8px;
+  background-color: #ef71a2;
+  max-width: 163px;
+}
+
+.nav-home-icon {
+  fill: #fcfcfc;
+}
+
+.legal-link-text {
+  color: #fcfcfc;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .legal-header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+}
