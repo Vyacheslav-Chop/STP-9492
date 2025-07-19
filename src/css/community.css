@@ -97,11 +97,11 @@
     display: flex;
     gap: 279px;
     align-items: baseline;
+    padding-left: 142px;
   }
 
   .community-social-wrap {
     margin-bottom: 0;
-    margin-left: 142px;
   }
 
   .arrow-social-wrap {
@@ -208,7 +208,7 @@
 }
 
 @media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
-   .arrow-left {
+  .arrow-left {
     background-image: url('/img/community/arrow/big-arrow/big-arrow-left@2x.png');
   }
 
@@ -216,7 +216,7 @@
     background-image: url('/img/community/arrow/big-arrow/big-arrow-right@2x.png');
   }
 
-   .arrow-to-instagram {
+  .arrow-to-instagram {
     background-image: url('/img/community/arrow/small-arrow-left/arrow-instagram@2x.png');
   }
 
@@ -232,7 +232,7 @@
     background-image: url('/img/community/arrow/small-arrow-left/arrow-discord@2x.png');
   }
 
-    .arrow-to-appinsider {
+  .arrow-to-appinsider {
     background-image: url('/img/community/arrow/small-arrow-right/arrow-appinsider@2x.png');
   }
 
