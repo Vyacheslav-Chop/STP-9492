@@ -9,7 +9,7 @@ const swiper = new Swiper('[data-action="mySwiper"]', {
   spaceBetween: 20,
   loop: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: '[data-action="swiper-pagination"]',
     clickable: true,
     bulletClass: 'swiper-pagination-bullet',
     bulletActiveClass: 'swiper-pagination-bullet-active',

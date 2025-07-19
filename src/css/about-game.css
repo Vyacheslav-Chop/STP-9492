@@ -27,15 +27,15 @@
   padding: 16px 12px;
   border-radius: 4px;
   background-color: #ffbfde;
+}
 
-  &:nth-child(2) {
-    color: #fcfcfc;
-    background-color: #ef71a2;
+.about-item:nth-child(2) {
+  color: #fcfcfc;
+  background-color: #ef71a2;
+}
 
-    .about-item-number {
-      border: 1px solid #fcfcfc;
-    }
-  }
+.about-item:nth-child(2) .about-item-number {
+  border: 1px solid #fcfcfc;
 }
 
 .about-item-number {
@@ -78,10 +78,10 @@
 
   .about-desc {
     max-width: 400px;
+  }
 
-    span {
-      background-color: #F6DEEB;
-    }
+  .about-desc span {
+    background-color: #F6DEEB;
   }
 
   .about-desk-slogan {

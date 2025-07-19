@@ -9,10 +9,10 @@
 
 .features-mob-item {
   margin-bottom: 24px;
+}
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+.features-mob-item:last-child {
+  margin-bottom: 0;
 }
 
 .features-mob-text {
@@ -28,8 +28,6 @@
 .features-mob-img {
   margin: auto;
 }
-
-
 
 @media (min-width:1200px) {
   .features-desc {
@@ -54,15 +52,15 @@
   .accordion-item {
     cursor: pointer;
     transition: all .3s ease;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  .accordion-item:last-child {
+    margin-bottom: 0;
+  }
 
-    &:hover,
-    &:focus {
-      background-color: #ef71a2;
-    }
+  .accordion-item:hover,
+  .accordion-item:focus {
+    background-color: #ef71a2;
   }
 
   .accordion-button {
@@ -74,10 +72,10 @@
     background-color: transparent;
     border: none;
     text-align: left;
+  }
 
-    &[data-active="button"] {
-      background-color: #ef71a2;
-    }
+  .accordion-button[data-active="button"] {
+    background-color: #ef71a2;
   }
 
   .image-display-container {

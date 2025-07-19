@@ -25,12 +25,10 @@
   background-color: transparent;
   border: none;
   padding: 0;
+}
 
-  &:hover {
-    .burger-icon {
-      fill: #ef71a2;
-    }
-  }
+.burger-btn:hover .burger-icon {
+  fill: #ef71a2;
 }
 
 .burger-icon {
@@ -77,21 +75,21 @@
     position: relative;
     padding-bottom: 2px;
     display: inline-block;
+  }
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0;
-      height: 2px;
-      background-color: #181412;
-      transition: width 0.3s ease;
-    }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #181412;
+    transition: width 0.3s ease;
+  }
 
-    &:hover::after,
-    &:focus::after {
-      width: 100%;
-    }
+  .nav-link:hover::after,
+  .nav-link:focus::after {
+    width: 100%;
   }
 }

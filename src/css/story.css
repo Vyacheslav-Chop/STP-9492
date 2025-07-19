@@ -4,11 +4,11 @@
 
 .story-desc {
   text-align: center;
+}
 
-  span {
-    font-style: italic;
-    font-weight: 600;
-  }
+.story-desc span {
+  font-style: italic;
+  font-weight: 600;
 }
 
 @media (min-width:1200px) {
