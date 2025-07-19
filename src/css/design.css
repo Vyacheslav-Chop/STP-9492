@@ -1,0 +1,71 @@
+.design-section {
+  background-image: url('/img/design/design-bg-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .design-section {
+    background-image: url('/img/design/design-bg-mob@2x.png');
+  }
+}
+
+.design-container {
+  padding-bottom: 24px;
+}
+
+.design-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.design-text {
+  text-align: center;
+}
+
+.design-bg {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .design-section {
+    background-image: none;
+  }
+
+  .design-container {
+    padding-bottom: 112px;
+    position: relative;
+  }
+
+  .design-bg {
+    position: absolute;
+    display: flex;
+    background-image: url('/img/design/design-bg-desc.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 996px;
+    min-height: 314px;
+    top: 48px;
+    left: 102px;
+    z-index: -1;
+  }
+
+  .design-subtitle {
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+
+  .design-text {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .design-bg {
+    background-image: url('/img/design/design-bg-desc@2x.png');
+  }
+}
