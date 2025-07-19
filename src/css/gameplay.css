@@ -57,9 +57,11 @@
   text-align: center;
 }
 
+
 @media screen and (min-resolution: 192dpi) {
   .gameplay-section {
     background-image: url(/img/gameplay/gameplay-mob-bg@2x.png);
+    background-size: auto 784px;
   }
 }
 
@@ -67,13 +69,7 @@
   .gameplay-section {
     background-image: url(/img/gameplay/gameplay-desk-bg.png);
     width: 100%;
-  }
-
-  @media screen and (min-resolution: 192dpi) {
-    .gameplay-section {
-      background-image: url(/img/gameplay/gameplay-desk-bg@2x.png);
-      height: 546px;
-    }
+    height: 598px;
   }
 
   .gameplay-title {
@@ -123,5 +119,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+}
+
+@media screen and (min-width:1200px) and (min-resolution: 192dpi) {
+  .gameplay-section {
+    background-image: url(/img/gameplay/gameplay-desk-bg@2x.png);
+    background-size: 1200px 598px;
   }
 }
