@@ -40,8 +40,8 @@
   }
 
   .progres-demo-video {
-    min-width: 1120px;
-    height: 524px;
+    min-width: 100%;
+    height: auto;
     margin-bottom: 32px;
   }
 
