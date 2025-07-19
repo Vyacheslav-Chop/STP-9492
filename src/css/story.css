@@ -1,0 +1,29 @@
+.story-mob-img {
+  margin: 0 auto 18px;
+}
+
+.story-desc {
+  text-align: center;
+
+  span {
+    font-style: italic;
+    font-weight: 600;
+  }
+}
+
+@media (min-width:1200px) {
+  .story-title {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+
+  .story-mob-img {
+    margin: 0 auto 18px;
+  }
+
+  .story-desc {
+    max-width: 454px;
+    margin: auto;
+  }
+}

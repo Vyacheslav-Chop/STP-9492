@@ -1,0 +1,131 @@
+.gameplay-section {
+  background-image: url(/img/gameplay/gameplay-mob-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: 100%;
+  height: 785px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameplay-title {
+  color: #fcfcfc;
+  margin-bottom: 32px;
+}
+
+.gameplay-desc {
+  color: #fcfcfc;
+  margin-bottom: 32px;
+
+  span {
+    font-weight: 600;
+    color: #181412;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gameplay-item {
+  border-radius: 8px;
+  padding: 20px 34px;
+
+  &:nth-child(1) {
+    background-color: #ffbfde;
+  }
+
+  &:nth-child(2) {
+    background-color: #f6deeb;
+  }
+
+  &:nth-child(3) {
+    background-color: #faecdb;
+  }
+
+  &:nth-child(4) {
+    background-color: #f8f7f1;
+  }
+}
+
+.gameplay-text {
+
+  text-align: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .my-section {
+    background-image: url(/img/gameplay/gameplay-mob-bg@2ч.png);
+  }
+}
+
+@media (min-width:1200px) {
+  .gameplay-section {
+    background-image: url(/img/gameplay/gameplay-desk-bg.png);
+    width: 100%;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .my-section {
+      background-image: url(/img/gameplay/gameplay-desk-bg@2ч.png);
+    }
+  }
+
+  .gameplay-title {
+    font-weight: 400;
+    font-size: 48px;
+  }
+
+  .gameplay-desc {
+    font-size: 20px;
+    text-align: center;
+    max-width: 652px;
+    margin: 0 auto 32px;
+
+    span {
+      font-weight: 400;
+      color: #181412;
+      border-radius: 4px;
+
+      &:nth-child(1) {
+        background-color: #FFBFDE;
+      }
+
+      &:nth-child(2) {
+        background-color: #F6DEEB;
+      }
+
+      &:nth-child(3) {
+        background-color: #FAECDB;
+      }
+
+      &:nth-child(4) {
+        background-color: #F8F7F1;
+      }
+    }
+  }
+
+  .gameplay-list {
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .gameplay-item {
+    width: 100%;
+    max-width: 240px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
