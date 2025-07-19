@@ -76,11 +76,11 @@ section .swiper-pagination-bullet-active {
   }
 
   .section .swiper-button-prev {
-    left: 33%;
+    left: 38%;
   }
 
   .section .swiper-button-next {
-    right: 33%;
+    right: 38%;
   }
 
   .testimonials-subtitle {
@@ -115,7 +115,7 @@ section .swiper-pagination-bullet-active {
     margin-bottom: 16px;
   }
 
-  section .swiper-pagination-bullet {
+  .section .swiper-pagination-bullet {
     width: 16px;
     height: 16px;
   }

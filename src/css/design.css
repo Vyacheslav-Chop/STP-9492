@@ -2,7 +2,7 @@
   background-image: url('/img/design/design-bg-mob.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
