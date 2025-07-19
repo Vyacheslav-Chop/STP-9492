@@ -1,0 +1,52 @@
+.progres-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.margin-bottom {
+  margin-bottom: 8px;
+}
+
+.margin-bottom-next {
+  margin-bottom: 24px;
+}
+
+.progres-demo-video {
+  width: 100%;
+  height: 160px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .progres-subtitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .progres-text {
+    text-align: center;
+  }
+
+  .margin-bottom {
+    max-width: 455px;
+    margin: 0 auto 24px;
+  }
+
+  .margin-bottom-next {
+    max-width: 321px;
+    margin: 0 auto 32px;
+  }
+
+  .progres-demo-video {
+    min-width: 1120px;
+    height: 524px;
+    margin-bottom: 32px;
+  }
+
+  .progres-container .google-play-link {
+    margin: 0 auto;
+  }
+}
+
