@@ -8,10 +8,10 @@
   text-align: center;
   color: #181412;
   margin-bottom: 8px;
+}
 
-  span {
-    font-size: 20px;
-  }
+.hero-title span {
+  font-size: 20px;
 }
 
 .mob-hero-img {
@@ -79,7 +79,7 @@
 
 @media (min-width:1200px) {
   .hero-section {
-    padding-top: 168px;
+    padding-top: 140px;
   }
 
   .text-img-container {

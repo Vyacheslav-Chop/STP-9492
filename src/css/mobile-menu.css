@@ -12,7 +12,9 @@
   visibility: hidden;
 
   transition: opacity .3s ease, visibility 0s linear .3s, pointer-events 0s linear .3s;
-  z-index: 999;
+
+  z-index: 10001;
+
 
 }
 

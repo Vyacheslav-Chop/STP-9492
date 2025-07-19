@@ -4,7 +4,6 @@
 
 .about-mob-slogan {
   font-size: 20px;
-  color: #181412;
   margin-bottom: 8px;
 }
 
@@ -58,12 +57,28 @@
   .title-img-desc-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 12px;
     margin-bottom: 24px;
   }
 
   .about-title {
     margin-bottom: 0;
+    position: relative;
+  }
+
+  .about-title::after {
+    content: '';
+    position: absolute;
+    background-image: url(/img/about/about-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    width: 366px;
+    height: 8px;
+    bottom: 22px;
+    left: 336px;
+    pointer-events: none;
   }
 
   .arrow-img {

@@ -4,7 +4,7 @@
   font-size: 16px;
   font-weight: 400;
 
-  color:#181412;
+  color: #181412;
   background-color: #f8f7f1;
 
   font-synthesis: none;
@@ -14,6 +14,10 @@
   -webkit-text-size-adjust: 100%;
 
   --font-main: 'Inter', sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
