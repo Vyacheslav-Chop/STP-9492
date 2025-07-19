@@ -1,0 +1,122 @@
+.testimonials-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 27px;
+}
+
+.section .swiper-button-prev,
+.section .swiper-button-next {
+  display: none;
+}
+
+.section .swiper-wrapper {
+  padding-top: 50px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.section .swiper-slide {
+  position: relative;
+  background-color: #ffbfde;
+  border-radius: 8px;
+  padding: 16px 12px 55px;
+  height: 373px;
+}
+
+.user-avatar {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+
+.user-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.user-personas {
+  font-weight: 200;
+  margin-bottom: 24px;
+}
+
+section .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #b8b8b8;
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+}
+
+section .swiper-pagination-bullet-active {
+  background-color: #181412;
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-main-wrap {
+    padding: 0 73px;
+  }
+
+  .section .swiper-button-prev,
+  .section .swiper-button-next {
+    display: flex;
+    color: #181412;
+    text-shadow: -1px 0 currentColor, 1px 0 currentColor, 0 -1px currentColor,
+      0 1px currentColor;
+    top: 411px;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+  }
+
+  .section .swiper-button-prev::after,
+  .section .swiper-button-next::after {
+    font-size: 16px;
+  }
+
+  .section .swiper-button-prev {
+    left: 33%;
+  }
+
+  .section .swiper-button-next {
+    right: 33%;
+  }
+
+  .testimonials-subtitle {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .section .swiper-wrapper {
+    padding-top: 82px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  .section .swiper-slide {
+    padding: 24px;
+    height: 287px;
+    width: 467px;
+  }
+
+  .user-avatar {
+    width: 120px;
+    height: 120px;
+    top: -82px;
+  }
+
+  .user-name {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .user-personas {
+    margin-bottom: 16px;
+  }
+
+  section .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+  }
+}
