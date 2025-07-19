@@ -1,0 +1,130 @@
+.hero-section {
+  padding-top: 88px;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #181412;
+  margin-bottom: 8px;
+
+  span {
+    font-size: 20px;
+  }
+}
+
+.mob-hero-img {
+  max-width: 252px;
+  margin: 0 auto 16px;
+}
+
+.desk-hero-img {
+  display: none;
+}
+
+.slogan {
+  font-size: 20px;
+  max-width: 230px;
+}
+
+.slogan .play {
+  color: #ffbfde;
+}
+
+.slogan .design {
+  color: #ef71a2;
+}
+
+.slogan .serve {
+  color: #fc4c2a;
+}
+
+.slogan-desc {
+  font-size: 20px;
+  max-width: 230px;
+  margin-bottom: 8px;
+}
+
+.play-desc {
+  margin-bottom: 16px;
+}
+
+.google-play-link {
+  color: #fcfcfc;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background-color: #ef71a2;
+  border: 1px solid #fc4c2a;
+  border-radius: 8px;
+
+  padding: 12px 24px;
+  transition: all .3s ease;
+}
+
+.google-play-link:hover,
+.google-play-link:focus {
+  color: #181412;
+  background-color: #ffbfde;
+}
+
+.google-play-logo {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+}
+
+@media (min-width:1200px) {
+  .hero-section {
+    padding-top: 168px;
+  }
+
+  .text-img-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .mob-hero-img {
+    display: none;
+  }
+
+  .desk-hero-img {
+    max-width: 430px;
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 58px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .hero-title span {
+    font-size: 64px;
+  }
+
+  .slogan {
+    font-size: 24px;
+  }
+
+  .slogan-desc {
+    font-size: 24px;
+    max-width: 550px;
+    margin-bottom: 16px;
+  }
+
+  .play-desc {
+    max-width: 550px;
+    margin-bottom: 32px;
+  }
+
+  .google-play-link {
+    font-size: 20px;
+    gap: 16px;
+    max-width: 520px;
+    padding: 16px 28px;
+  }
+}
