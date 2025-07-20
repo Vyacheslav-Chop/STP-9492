@@ -81,6 +81,14 @@
     margin-bottom: 32px;
   }
 
+  .char-list {
+    gap: 16px;
+  }
+
+  .section .char-swiper .swiper-slide {
+    max-width: 268px
+  }
+
   .char-item-name {
     font-size: 24px;
   }
