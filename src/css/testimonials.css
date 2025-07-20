@@ -10,6 +10,7 @@
 }
 
 .section .swiper-wrapper {
+  display: flex;
   padding-top: 50px;
   padding-bottom: 16px;
   margin-bottom: 16px;
