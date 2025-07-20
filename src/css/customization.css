@@ -1,0 +1,111 @@
+.section-customization {
+  background-image: url('/img/customization/bg/bg-customization-mob.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fcfcfc;
+  padding: 88px 0;
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+  .section-customization {
+    background-image: url('/img/customization/bg/bg-customization-mob@2x.png');
+  }
+}
+
+.section-customization .swiper {
+  width: 160px;
+}
+
+.customization-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.section-customization .swiper-wrapper.customization-swiper-wrap {
+  padding: 0 0 32px;
+  margin: 0;
+}
+
+.section-customization .swiper-slide.customization-swiper-slide {
+  padding: 0;
+  background-color: transparent;
+  position: static;
+  height: auto;
+  border-radius: 14px;
+}
+
+.swiper-slide-card {
+  border-radius: 14px;
+}
+
+.customization-text {
+  text-align: center;
+  max-width: 280px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-customization {
+    background-image: url('/img/customization/bg/bg-customization-desc.png');
+    padding: 104px 0;
+  }
+
+  .section-customization .swiper {
+    width: 100%;
+    margin-bottom: 33px;
+  }
+
+  .customization-subtitle {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .section-customization .swiper-wrapper.customization-swiper-wrap {
+    padding: 0;
+    min-height: 239px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .section-customization .swiper-slide.customization-swiper-slide {
+    width: 160px;
+  }
+
+  .customization-swiper-slide {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+  }
+
+  .customization-swiper-slide::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 0 8px 0 #000000;
+    pointer-events: none;
+    border-radius: 14px;
+    z-index: 2;
+  }
+
+  .customization-swiper-wrap > .swiper-slide:nth-child(odd) {
+    transform: rotateZ(-8deg);
+  }
+
+  .customization-swiper-wrap > .swiper-slide:nth-child(even) {
+    transform: rotateZ(8deg);
+  }
+
+  .customization-text {
+    max-width: 705px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .section-customization {
+    background-image: url('/img/customization/bg/bg-customization-desc@2x.png');
+  }
+}
