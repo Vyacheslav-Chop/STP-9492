@@ -29,9 +29,9 @@
   margin: auto;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .features-desc {
-    font-size: 24px
+    font-size: 24px;
   }
 
   .features-mob-list {
@@ -51,7 +51,7 @@
 
   .accordion-item {
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   .accordion-item:last-child {
@@ -74,7 +74,7 @@
     text-align: left;
   }
 
-  .accordion-button[data-active="button"] {
+  .accordion-button[data-active='button'] {
     background-color: #ef71a2;
   }
 
@@ -102,7 +102,7 @@
     pointer-events: none;
     transition: all 0.3s ease;
 
-    &[data-active="image"] {
+    &[data-active='image'] {
       opacity: 1;
       pointer-events: auto;
       transform: translate(-50%, -50%) translateX(0);

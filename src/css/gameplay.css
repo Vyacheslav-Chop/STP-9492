@@ -57,8 +57,6 @@
   text-align: center;
 }
 
-
-
 @media screen and (min-resolution: 192dpi) {
   .gameplay-section {
     background-image: url(/img/gameplay/gameplay-mob-bg@2x.png);
@@ -66,7 +64,7 @@
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .gameplay-section {
     background-image: url(/img/gameplay/gameplay-desk-bg.png);
     width: 100%;
@@ -92,19 +90,19 @@
   }
 
   .gameplay-desc span:nth-child(1) {
-    background-color: #FFBFDE;
+    background-color: #ffbfde;
   }
 
   .gameplay-desc span:nth-child(2) {
-    background-color: #F6DEEB;
+    background-color: #f6deeb;
   }
 
   .gameplay-desc span:nth-child(3) {
-    background-color: #FAECDB;
+    background-color: #faecdb;
   }
 
   .gameplay-desc span:nth-child(4) {
-    background-color: #F8F7F1;
+    background-color: #f8f7f1;
   }
 
   .gameplay-list {
@@ -123,7 +121,7 @@
   }
 }
 
-@media screen and (min-width:1200px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
   .gameplay-section {
     background-image: url(/img/gameplay/gameplay-desk-bg@2x.png);
     background-size: 1200px 598px;

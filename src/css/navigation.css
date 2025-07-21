@@ -17,10 +17,10 @@
 
 .nav-link {
   font-size: 20px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 
   font-size: 20px;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
   position: relative;
   padding-bottom: 2px;
   display: inline-block;
