@@ -24,6 +24,11 @@
   height: auto;
 }
 
+.gallery-screen-game {
+  width: 240px;
+  height: 117px;
+}
+
 @media screen and (min-width: 1200px) {
   .gallery-subtitle {
     font-size: 24px;
@@ -37,5 +42,10 @@
 
   .gallery-swiper-main-wrap {
     padding: 26px 0;
+  }
+
+  .gallery-screen-game {
+    width: 460px;
+    height: 224px;
   }
 }
