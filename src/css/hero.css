@@ -15,7 +15,8 @@
 }
 
 .mob-hero-img {
-  max-width: 252px;
+  width: 252px;
+  height: 340;
   margin: 0 auto 16px;
 }
 
@@ -91,7 +92,8 @@
   }
 
   .desk-hero-img {
-    max-width: 430px;
+    max-width: 428px;
+    height: 486px;
     display: block;
   }
 

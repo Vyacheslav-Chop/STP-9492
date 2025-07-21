@@ -1,4 +1,6 @@
 .story-mob-img {
+  width: 286px;
+  height: 286px;
   margin: 0 auto 18px;
 }
 
@@ -19,6 +21,8 @@
   }
 
   .story-mob-img {
+    width: 368px;
+    height: 368px;
     margin: 0 auto 18px;
   }
 
