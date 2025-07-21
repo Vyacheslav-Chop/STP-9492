@@ -2,7 +2,7 @@
   background-image: url('/img/customization/bg/bg-customization-mob.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   color: #fcfcfc;
   padding: 88px 0;
 }
