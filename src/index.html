@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -11,41 +12,52 @@
     content="Play Delish Match: Match3 &#38; Design &#8211; the ultimate game where you solve vibrant puzzles, decorate restaurants, and follow Amelia&#39;s heartwarming culinary journey." />
   <meta name="title" content="Delish Match: Match3 &#38; Design &#8211; Build, Decorate, and Serve" />
 
-    <title>
-      Delish Match: Match3 &#38; Design &#8211; Build, Decorate, and Serve
-    </title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+  <title>
+    Delish Match: Match3 &#38; Design &#8211; Build, Decorate, and Serve
+  </title>
 
-  <body>
-    <load src="./partials/header.html" />
-    <load src="./partials/cookies-modal.html" />
 
-    <main>
-      <load src="./partials/hero.html" />
-      <load src="./partials/about-game.html" />
-      <load src="./partials/features.html" />
-      <load src="./partials/gameplay.html" />
-      <load src="./partials/story.html" />
-      <load src="./partials/characters.html" />
-      <load src="./partials/gallery.html" />
-      <load src="./partials/customization.html" />
-      <load src="./partials/progression.html" />
-      <load src="./partials/management.html" />
-      <load src="./partials/design.html" />
-      <load src="./partials/testimonials.html" />
-      <load src="./partials/community.html" />
-    </main>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/styles.css" />
 
-    <load src="./partials/footer.html" />
+  <link rel="preload" as="image" href="/img/hero/desk-hero-section.webp"
+    imagesrcset="/img/hero/desk-hero-section.webp 1x, /img/hero/desk-hero-section@2x.webp 2x" type="image/webp"
+    media="(min-width: 1200px)" fetchpriority="high">
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <link rel="preload" as="image" href="/img/hero/desk-hero-section.webp"
+    imagesrcset="/img/hero/desk-hero-section.webp 1x, /img/hero/desk-hero-section@2x.webp 2x" type="image/webp"
+    media="(min-width: 1200px)" fetchpriority="high">
+
+  <link rel="preload" as="image" href="/img/hero/mob-hero-section.webp"
+    imagesrcset="/img/hero/mob-hero-section.webp 1x, /img/hero/mob-hero-section@2x.webp 2x" type="image/webp"
+    media="(max-width: 1199px)" fetchpriority="high">
+</head>
+
+<body>
+  <load src="./partials/header.html" />
+  <load src="./partials/cookies-modal.html" />
+
+  <main>
+    <load src="./partials/hero.html" />
+    <load src="./partials/about-game.html" />
+    <load src="./partials/features.html" />
+    <load src="./partials/gameplay.html" />
+    <load src="./partials/story.html" />
+    <load src="./partials/characters.html" />
+    <load src="./partials/gallery.html" />
+    <load src="./partials/customization.html" />
+    <load src="./partials/progression.html" />
+    <load src="./partials/management.html" />
+    <load src="./partials/design.html" />
+    <load src="./partials/testimonials.html" />
+    <load src="./partials/community.html" />
+  </main>
+
+  <load src="./partials/footer.html" />
+
+  <script type="module" src="./main.js" defer></script>
+</body>
+
 </html>

@@ -14,15 +14,23 @@
   font-size: 20px;
 }
 
-.mob-hero-img {
-  width: 252px;
-  height: 340;
-  margin: 0 auto 16px;
+.mob-hero-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 
-.desk-hero-img {
+.mob-hero-img {
+  width: 252px;
+  height: auto;
+  aspect-ratio: 252 / 340;
+}
+
+.desk-hero-img-container {
   display: none;
 }
+
 
 .slogan {
   font-size: 20px;
@@ -87,15 +95,20 @@
     align-items: center;
   }
 
-  .mob-hero-img {
+  .mob-hero-img-container {
     display: none;
   }
 
-  .desk-hero-img {
-    max-width: 428px;
-    height: 486px;
+  .desk-hero-img-container {
     display: block;
   }
+
+  .desk-hero-img {
+    aspect-ratio: 428 / 486;
+    max-width: 428px;
+    height: 486px;
+  }
+
 
   .hero-title {
     font-size: 58px;
