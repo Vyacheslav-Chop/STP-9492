@@ -13,15 +13,33 @@
   border-radius: 8px;
   background-color: #ef71a2;
   max-width: 163px;
+  transition: background-color 0.3s;
+}
+
+.legal-link-header:hover,
+.legal-link-header:focus {
+  background-color: #ffbfde;
 }
 
 .nav-home-icon {
   fill: #fcfcfc;
+  transition: fill 0.3s;
+}
+
+.legal-link-header:hover .nav-home-icon,
+.legal-link-header:focus .nav-home-icon {
+  fill: #181412;
 }
 
 .legal-link-text {
   color: #fcfcfc;
   font-size: 20px;
+  transition: color 0.3s;
+}
+
+.legal-link-header:hover .legal-link-text,
+.legal-link-header:focus .legal-link-text {
+  color: #181412;
 }
 
 @media screen and (min-width: 1200px) {
