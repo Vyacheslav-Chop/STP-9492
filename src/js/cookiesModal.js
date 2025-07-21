@@ -1,6 +1,4 @@
-const cookiesModalBackdropEl = document.querySelector(
-  '[data-cookies-visible="close"]'
-);
+const cookiesModalBackdropEl = document.querySelector('[data-cookies-visible]');
 const acceptBtnEl = document.querySelector('[data-action="accept"]');
 const declineBtnEl = document.querySelector('[data-action="decline"]');
 
@@ -27,12 +25,12 @@ function handleAcceptCookies() {
 }
 
 function showCookiesModal() {
-  cookiesModalBackdropEl.dataset.visible = 'open';
+  cookiesModalBackdropEl.dataset.cookiesVisible = 'open';
   document.body.style.overflow = 'hidden';
 }
 
 function hideCookiesModal() {
-  cookiesModalBackdropEl.dataset.visible = 'close';
+  cookiesModalBackdropEl.dataset.cookiesVisible = 'close';
   document.body.style.overflow = '';
 }
 

@@ -6,19 +6,27 @@
   align-items: flex-end;
   justify-content: center;
 
-
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10002;
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
+
   transition: all 0.3s ease;
 }
 
-[data-visible='open'] {
+[data-cookies-visible='open'] {
   pointer-events: auto;
   visibility: visible;
   opacity: 1;
+  width: auto;
+  height: auto;
+}
+
+[data-cookies-visible='close'] {
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
 }
 
 .cookies-modal-window {
@@ -51,9 +59,10 @@
   font-weight: 300;
   font-size: 20px;
   border-radius: 8px;
-  padding: 12px 56px;
+  padding: 12px;
   border: 1px solid transparent;
   transition: all .3s ease;
+  min-width: 288px;
 }
 
 .cookies-modal-button.accept {
