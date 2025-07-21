@@ -33,14 +33,14 @@
 
 .burger-icon {
   fill: #181412;
-  transition: fill .3s ease;
+  transition: fill 0.3s ease;
 }
 
 .desk-nav {
   display: none;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .header {
     padding: 16px 0;
     top: 16px;
@@ -68,10 +68,10 @@
 
   .nav-link {
     font-size: 20px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 
     font-size: 20px;
-    transition: color .3s ease;
+    transition: color 0.3s ease;
     position: relative;
     padding-bottom: 2px;
     display: inline-block;

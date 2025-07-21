@@ -13,7 +13,7 @@
   font-weight: 600;
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .story-title {
     font-weight: 400;
     font-size: 48px;
