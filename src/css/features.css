@@ -75,6 +75,7 @@
   }
 
   .accordion-button[data-active='button'] {
+    color: #fcfcfc;
     background-color: #ef71a2;
   }
 
