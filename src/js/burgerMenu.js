@@ -3,7 +3,7 @@ const closeBtnEl = document.querySelector('[data-action="close"]');
 const burgerMenuEl = document.querySelector('[data-visible]');
 const navListEl = document.querySelector('[data-action="navList"]');
 
-openBtnEl.addEventListener('click', e => {
+openBtnEl.addEventListener('click', () => {
   burgerMenuEl.dataset.visible = 'open';
   document.body.style.overflow = 'hidden';
 });
@@ -28,7 +28,7 @@ document.addEventListener('keydown', e => {
 });
 
 navListEl.addEventListener('click', e => {
-  if (e.target.classList.contains('mob-nav-link')) {
+  if (e.target.closest('[data-nav-link]')) {
     burgerMenuEl.dataset.visible = 'close';
     document.body.style.overflow = '';
   }
