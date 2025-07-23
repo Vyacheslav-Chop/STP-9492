@@ -1,5 +1,7 @@
+import promoVideo from '../img/video/design-preview-unsl.mp4';
+
 function playVideo() {
-  const video = document.querySelector('video[data-src]');
+  const video = document.querySelector('video[data-lazi-video]');
 
   if (video) {
     // create observing
@@ -7,7 +9,7 @@ function playVideo() {
       const entry = entries[0];
 
       if (entry.isIntersecting) {
-        video.src = video.dataset.src;
+        video.src = promoVideo;
 
         // starts loading the video
         video.load();
